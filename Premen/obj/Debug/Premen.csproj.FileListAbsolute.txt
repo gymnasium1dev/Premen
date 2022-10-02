@@ -1,0 +1,16 @@
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\bin\Debug\Premen.exe.config
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\bin\Debug\Premen.exe
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\bin\Debug\Premen.pdb
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\Premen.csproj.AssemblyReference.cache
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\Premen.csproj.SuggestedBindingRedirects.cache
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\MainWindow.g.cs
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\App.g.cs
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\Premen_MarkupCompile.cache
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\Premen_MarkupCompile.lref
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\MainWindow.baml
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\Premen.g.resources
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\Premen.Properties.Resources.resources
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\Premen.csproj.GenerateResource.cache
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\Premen.csproj.CoreCompileInputs.cache
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\Premen.exe
+C:\Users\One\Desktop\Simple_APP\Premen\Premen\obj\Debug\Premen.pdb
