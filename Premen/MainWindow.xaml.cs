@@ -20,29 +20,37 @@ namespace Premen
     /// </summary>
     public partial class MainWindow : Window
     {
-        List<string> users = new List<string>();
+        List<Dictionary<string, string>> users = new List<Dictionary<string, string>>();
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void Event_Click(object sender, RoutedEventArgs e)
-        {
-            All.Content = ($"Username {users[0]} Lastname {users[1]} Password {users[2]} ");
-            
-        }
-
         private void Save_Click(object sender, RoutedEventArgs e)
         {
             
-
-            users.Add(username.Text);
-            users.Add(lastname.Text);
-            users.Add(password.Text);
+            Dictionary<string, string> user = new Dictionary<string, string>()
+            {
+                {"username", username.Text },
+                { "lastname", lastname.Text },
+                { "password", password.Text },
+                {"age", date.Text += 1},
+            };
+           
+            users.Add(user);
             MessageBox.Show("Successfully");
             username.Clear();
             lastname.Clear();
             password.Clear();
+            date.Clear();
+        }
+        private void Event_Click(object sender, RoutedEventArgs e)
+        {
+            users.ForEach((element) =>
+            {
+               All.Content = ($"username: {element["username"]},lastname : {element["lastname"]}, password: {element["password"]} date: {element["age"]}");
+            });
+
         }
     }
 }
