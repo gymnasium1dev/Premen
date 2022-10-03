@@ -20,7 +20,7 @@ namespace Premen
     /// </summary>
     public partial class MainWindow : Window
     {
-        List<Dictionary<string, string>> users = new List<Dictionary<string, string>>();
+        List<Dictionary<string, dynamic>> users = new List<Dictionary<string, dynamic>>();
         public MainWindow()
         {
             InitializeComponent();
@@ -29,12 +29,12 @@ namespace Premen
         private void Save_Click(object sender, RoutedEventArgs e)
         {
             
-            Dictionary<string, string> user = new Dictionary<string, string>()
+            Dictionary<string, dynamic> user = new Dictionary<string, dynamic>()
             {
                 {"username", username.Text },
                 { "lastname", lastname.Text },
                 { "password", password.Text },
-                {"age", date.Text += 1},
+                {"age", Convert.ToInt32( date.Text += 1)},
             };
            
             users.Add(user);
